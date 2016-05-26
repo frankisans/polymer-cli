@@ -16,7 +16,7 @@ import {compose} from './streams';
 
 // not ES compatible
 const cssSlam = require('css-slam').gulp;
-const htmlmin = require('gulp-html-minifier');
+const htmlmin = require('gulp-htmlmin');
 
 export interface OptimizeOptions {
   /**
